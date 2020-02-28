@@ -13,7 +13,6 @@ struct QiitaItemRow : View {
     var item: Item
     
     var body: some View {
-        print(item.title)
         return Text(item.title)
     }
 }

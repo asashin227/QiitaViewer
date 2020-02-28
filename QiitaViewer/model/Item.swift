@@ -6,8 +6,9 @@
 //  Copyright © 2020 Asakura  Shinsuke. All rights reserved.
 //
 
-import UIKit
-
-class Item: NSObject {
-
+struct Item: Identifiable {
+    let id: String
+    let title: String
+    let url: String
 }
+

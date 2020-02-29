@@ -22,9 +22,9 @@ struct QiitaItemList: View {
         if 0 < repository.result.count {
             return NavigationView {
                 List(repository.result) { item in
-                    //            NavigationLink(destination: LandmarkDetail()) {
-                    QiitaItemRow(item: item)
-                    //            }
+                    NavigationLink(destination: QiitaContentView(title: item.title, urlString: item.url)) {
+                        QiitaItemRow(item: item)
+                    }
                 }
                 .listStyle(GroupedListStyle())
                 .navigationBarTitle(Text("Qiita Items"))
@@ -36,7 +36,9 @@ struct QiitaItemList: View {
         // TODO: 仮で入れてるので消す
         return NavigationView {
             List([Item(id: "", title: "未取得", url: "")]) { item in
-                QiitaItemRow(item: item)
+                NavigationLink(destination: QiitaContentView(title: item.title, urlString: item.url)) {
+                    QiitaItemRow(item: item)
+                }
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle(Text("Qiita Items"))

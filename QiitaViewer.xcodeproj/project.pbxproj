@@ -21,6 +21,7 @@
 		17624A9F2408CE21000CB2CE /* RepositoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17624A8D2407E2E8000CB2CE /* RepositoryContainer.swift */; };
 		1778054F240A3065005B9D8F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778054E240A3065005B9D8F /* WebView.swift */; };
 		17780555240A3259005B9D8F /* QiitaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17780554240A3259005B9D8F /* QiitaContentView.swift */; };
+		17780559240A3454005B9D8F /* QiitaItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17780558240A3454005B9D8F /* QiitaItemsView.swift */; };
 		179612B2240767D800CCCEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179612B1240767D800CCCEA5 /* AppDelegate.swift */; };
 		179612B4240767D800CCCEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179612B3240767D800CCCEA5 /* SceneDelegate.swift */; };
 		179612B8240767E500CCCEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179612B7240767E500CCCEA5 /* Assets.xcassets */; };
@@ -97,6 +98,7 @@
 		17624A9C2408CD02000CB2CE /* ItemConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemConverter.swift; sourceTree = "<group>"; };
 		1778054E240A3065005B9D8F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		17780554240A3259005B9D8F /* QiitaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaContentView.swift; sourceTree = "<group>"; };
+		17780558240A3454005B9D8F /* QiitaItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaItemsView.swift; sourceTree = "<group>"; };
 		179612AE240767D800CCCEA5 /* QiitaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179612B1240767D800CCCEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179612B3240767D800CCCEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -199,6 +201,16 @@
 			path = converter;
 			sourceTree = "<group>";
 		};
+		1778055A240A3472005B9D8F /* component */ = {
+			isa = PBXGroup;
+			children = (
+				1778054E240A3065005B9D8F /* WebView.swift */,
+				17FEB3002408E1DC004A9F61 /* QiitaItemRow.swift */,
+				17FEB3042408E794004A9F61 /* QiitaItemList.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
 		179612A5240767D700CCCEA5 = {
 			isa = PBXGroup;
 			children = (
@@ -248,9 +260,8 @@
 		17FEB2FF2408E1BF004A9F61 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				17FEB3002408E1DC004A9F61 /* QiitaItemRow.swift */,
-				17FEB3042408E794004A9F61 /* QiitaItemList.swift */,
-				1778054E240A3065005B9D8F /* WebView.swift */,
+				1778055A240A3472005B9D8F /* component */,
+				17780558240A3454005B9D8F /* QiitaItemsView.swift */,
 				17780554240A3259005B9D8F /* QiitaContentView.swift */,
 			);
 			path = View;
@@ -458,6 +469,7 @@
 				17FEB3012408E1DC004A9F61 /* QiitaItemRow.swift in Sources */,
 				1778054F240A3065005B9D8F /* WebView.swift in Sources */,
 				179612B4240767D800CCCEA5 /* SceneDelegate.swift in Sources */,
+				17780559240A3454005B9D8F /* QiitaItemsView.swift in Sources */,
 				17624A9E2408CE17000CB2CE /* UserItemRepository.swift in Sources */,
 				17780555240A3259005B9D8F /* QiitaContentView.swift in Sources */,
 			);

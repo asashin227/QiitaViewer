@@ -15,8 +15,8 @@ struct QiitaContentView: View {
     var body: some View {
         NavigationView {
             WebView(urlString: urlString)
+                .navigationBarTitle(Text(title))
         }
-        .navigationBarTitle(Text(title))
     }
 }
 

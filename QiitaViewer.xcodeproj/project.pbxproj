@@ -19,6 +19,7 @@
 		17624A9D2408CD02000CB2CE /* ItemConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17624A9C2408CD02000CB2CE /* ItemConverter.swift */; };
 		17624A9E2408CE17000CB2CE /* UserItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17624A8F2407E32A000CB2CE /* UserItemRepository.swift */; };
 		17624A9F2408CE21000CB2CE /* RepositoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17624A8D2407E2E8000CB2CE /* RepositoryContainer.swift */; };
+		1778054F240A3065005B9D8F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778054E240A3065005B9D8F /* WebView.swift */; };
 		179612B2240767D800CCCEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179612B1240767D800CCCEA5 /* AppDelegate.swift */; };
 		179612B4240767D800CCCEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179612B3240767D800CCCEA5 /* SceneDelegate.swift */; };
 		179612B8240767E500CCCEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179612B7240767E500CCCEA5 /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		17624A952408A2E7000CB2CE /* GetUserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserItem.swift; sourceTree = "<group>"; };
 		17624A992408CCDC000CB2CE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		17624A9C2408CD02000CB2CE /* ItemConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemConverter.swift; sourceTree = "<group>"; };
+		1778054E240A3065005B9D8F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		179612AE240767D800CCCEA5 /* QiitaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179612B1240767D800CCCEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179612B3240767D800CCCEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 			children = (
 				17FEB3002408E1DC004A9F61 /* QiitaItemRow.swift */,
 				17FEB3042408E794004A9F61 /* QiitaItemList.swift */,
+				1778054E240A3065005B9D8F /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				179612B2240767D800CCCEA5 /* AppDelegate.swift in Sources */,
 				17624A9F2408CE21000CB2CE /* RepositoryContainer.swift in Sources */,
 				17FEB3012408E1DC004A9F61 /* QiitaItemRow.swift in Sources */,
+				1778054F240A3065005B9D8F /* WebView.swift in Sources */,
 				179612B4240767D800CCCEA5 /* SceneDelegate.swift in Sources */,
 				17624A9E2408CE17000CB2CE /* UserItemRepository.swift in Sources */,
 			);

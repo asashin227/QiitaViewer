@@ -26,6 +26,7 @@ struct QiitaItemList: View {
                     QiitaItemRow(item: item)
                     //            }
                 }
+                .listStyle(GroupedListStyle())
                 .navigationBarTitle(Text("Qiita Items"))
             }
         } else if let error = repository.error {
@@ -37,6 +38,7 @@ struct QiitaItemList: View {
             List([Item(id: "", title: "未取得", url: "")]) { item in
                 QiitaItemRow(item: item)
             }
+            .listStyle(GroupedListStyle())
             .navigationBarTitle(Text("Qiita Items"))
         }
     }

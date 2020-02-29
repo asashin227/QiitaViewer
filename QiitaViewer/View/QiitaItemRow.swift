@@ -13,7 +13,10 @@ struct QiitaItemRow : View {
     var item: Item
     
     var body: some View {
-        return Text(item.title)
+        VStack(alignment: .leading) {
+            Text(item.title)
+            Text(item.url).font(Font.caption)
+        }
     }
 }
 
